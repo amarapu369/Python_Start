@@ -1,6 +1,6 @@
-i =0 
-while i <= 10 :
-    print("my name is ramprasad")
+#i =0 
+#while i <= 10 :
+ #   print("my name is ramprasad")
 
 # these changes are made on 21-020-2024
 # above loop is the infinite loop because of the i value is not incerementing 
