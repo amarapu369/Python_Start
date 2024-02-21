@@ -1,9 +1,9 @@
-# user input 
-# we will use the input function 
-# name = input('type your name\n')
-# print("hello " +name)
-# age = input("enter your age \n" )
-# print('your age is ' +age)
+ user input 
+ we will use the input function 
+ name = input('type your name\n')
+ print("hello " +name)
+ age = input("enter your age \n" )
+ print('your age is ' +age)
 
 name , age = input("enter your name and age \n").split()
 print(name)
