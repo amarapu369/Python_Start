@@ -55,11 +55,11 @@
 
 ###############another  method ##########
 
-def bigger(x,y):
-     if x > y :
-          return x
-     else:
-          return y
+# def bigger(x,y):
+#      if x > y :
+#           return x
+#      else:
+#           return y
 
 ############## function for the three number gretest################
 
@@ -73,13 +73,46 @@ def bigger(x,y):
 
 ################# function inside function ####################
 
-def gretest(a,b,c):
-   k = bigger(a,b)
-   return bigger(k,c)
-x = input("enter the first number :")
-y = input("enter the second number :")
-z = input("enter the thired number :")
-print(f"{gretest(x,y,z)}  is the biggest among the all numbers!")
+# def gretest(a,b,c):
+#    k = bigger(a,b)
+#    return bigger(k,c)
+# x = input("enter the first number :")
+# y = input("enter the second number :")
+# z = input("enter the thired number :")
+# print(f"{gretest(x,y,z)}  is the biggest among the all numbers!")
 
 ######-KISS -Keep it simple stupid ########################
- 
+# def is_palindrome(word):
+#     w = word[::-1]
+#     if word == w:
+#       return True
+#     else:
+#       return False
+# x = is_palindrome("naman")
+# print(is_palindrome("rampraad"))
+# print(x)
+
+# # another type 1
+# def is_palindrome(word):
+#     w = word[::-1]
+#     if word == w:
+#       return True
+    
+#     return False
+# print(is_palindrome("rampraad"))
+# print(is_palindrome("naman"))
+
+# another type 2
+# def is_palindrome(word):
+#     if word == word[::-1]:
+#       return True
+#     return False
+# print(is_palindrome("rampraad"))
+# print(is_palindrome("naman"))
+
+
+# another type 3
+def is_palindrome(word):
+      return word == word[::-1]
+print(is_palindrome("rampraad"))
+print(is_palindrome("naman"))
